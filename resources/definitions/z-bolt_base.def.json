@@ -1,0 +1,33 @@
+{
+    "name": "Z-Bolt Base",
+    "version": 2,
+    "inherits": "fdmprinter",
+    "metadata":
+    {
+        "visible": false,
+        "author": "Z-Bolt",
+        "manufacturer": "Z-Bolt Co.",
+        "file_formats": "text/x-gcode",
+        "first_start_actions": ["MachineSettingsAction"],
+        "has_machine_quality": true,
+        "has_materials": true,
+        "has_variants": true,
+        "variants_name": "Toolhead",
+        "machine_extruder_trains": { "0": "z-bolt_extruder_0" },
+    },
+    "overrides":
+    {
+        "machine_name":                                 { "default_value": "Z-Bolt" },
+        "machine_width":                                { "default_value": 200 },
+        "machine_depth":                                { "default_value": 200 },
+        "machine_height":                               { "default_value": 200 },
+        "gantry_height":                                { "value": 50 },
+        "machine_heated_bed":                           { "default_value": true },
+        "machine_head_with_fans_polygon":               { "default_value": [ [-35, 65], [-35, -50], [35, -50], [35, 65] ] },
+        "machine_gcode_flavor":                         { "default_value": "RepRap (Marlin/Sprinter)" },
+        "machine_start_gcode":                          { "default_value": "print_start" },
+        "machine_end_gcode":                            { "default_value": "print_end" },
+        "acceleration_enabled":                         { "default_value": false },
+        "jerk_enabled":                                 { "default_value": false },
+    }
+}
