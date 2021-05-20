@@ -156,7 +156,8 @@
         "wall_line_width":                              { "value": "machine_nozzle_size * 1.2" },
         "infill_line_width":                            { "value": "machine_nozzle_size * 1.1" },
 
-        "optimize_wall_printing_order":                 { "default_value": true },
+        "wall_thickness":								{ "value": "wall_line_width * 3"},
+		"optimize_wall_printing_order":                 { "default_value": true },
 		"travel_compensate_overlapping_walls_enabled":  { "default_value": true },
         "fill_perimeter_gaps":                          { "default_value": "everywhere" },
         "filter_out_tiny_gaps": 						{ "value": true },
@@ -171,6 +172,7 @@
 		"z_seam_corner":								{ "value": "'z_seam_corner_inner'" },
 
 		"roofing_layer_count":							{ "value": 0 },
+		"top_bottom_thickness":							{ "value": "layer_height * 5" },
         "top_bottom_pattern":                			{ "value": "'zigzag'" },
         "top_bottom_pattern_0":              			{ "value": "'zigzag'" },
 
@@ -197,7 +199,7 @@
         "retraction_combing_max_distance":   			{ "value": "10" },	
 		"travel_avoid_other_parts":                     { "default_value": true },
 
-        "support_angle":                     			{ "value": 60 },
+        "support_angle":                     			{ "value": 58 },
         "support_wall_count":							{ "value": 1 },
 		"support_infill_rate":							{ "value": 10 },
         "support_brim_enable": 							{ "value": true },
