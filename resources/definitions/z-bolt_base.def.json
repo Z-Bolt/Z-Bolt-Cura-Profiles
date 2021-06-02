@@ -207,6 +207,7 @@
         "retraction_combing_max_distance":   			{ "value": "10" },	
 		"travel_avoid_other_parts":                     { "default_value": true },
 
+		"support_enable":								{ "default_value": true },
         "support_angle":                     			{ "value": 58 },
         "support_wall_count":							{ "value": 1 },
 		"support_infill_rate":							{ "value": 10 },
