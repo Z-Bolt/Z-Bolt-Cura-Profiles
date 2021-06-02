@@ -4,14 +4,13 @@
     <name>
       <brand>Z-Bolt Generic</brand>
       <material>PETG</material>
-      <color>Natural</color>
+      <color>Generic</color>
     </name>
     <GUID>251e82fd-5375-4cae-8f77-5adfe0b0569a</GUID>
     <color_code>#ff6347</color_code>
     <version>5</version>
   </metadata>
   <properties>
-    <density>1.04</density>
     <diameter>1.75</diameter>
   </properties>
   <settings>

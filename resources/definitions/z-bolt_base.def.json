@@ -141,7 +141,16 @@
             "generic_pp",
             "generic_pva",
             "generic_tough_pla",
-            "generic_tpu"
+            "generic_tpu",
+            "generic_abs_175",
+            "generic_cpe_175",
+            "generic_hips_175",
+            "generic_nylon_175",
+            "generic_pc_175",
+            "generic_petg_175",
+            "generic_pla_175",
+            "generic_pva_175",
+            "generic_tpu_175"		
         ]
     },
     "overrides":
@@ -188,6 +197,9 @@
         "zig_zaggify_infill":                			{ "value": true },
         "infill_overlap": 								{ "value": 25.0 },
         "infill_before_walls": 							{ "value": false },
+		
+		"material_initial_print_temperature":			{ "value": "material_print_temperature" },
+		"material_final_print_temperature":				{ "value": "material_print_temperature" },
 
 		"speed_infill":									{ "value": "speed_print" },
         "speed_wall":                                   { "value": "math.ceil(speed_print * 0.6)" },

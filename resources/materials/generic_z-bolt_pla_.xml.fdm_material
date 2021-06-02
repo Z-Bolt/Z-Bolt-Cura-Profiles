@@ -4,14 +4,13 @@
     <name>
       <brand>Z-Bolt Generic</brand>
       <material>PLA</material>
-      <color>Natural</color>
+      <color>Generic</color>
     </name>
     <GUID>b91034d2-bdcc-48b6-aa54-df1810d83680</GUID>
     <color_code>#ff6347</color_code>
     <version>5</version>
   </metadata>
   <properties>
-    <density>1.04</density>
     <diameter>1.75</diameter>
   </properties>
   <settings>

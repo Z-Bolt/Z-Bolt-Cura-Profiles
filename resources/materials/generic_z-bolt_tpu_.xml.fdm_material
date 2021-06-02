@@ -3,10 +3,10 @@
   <metadata>
     <name>
       <brand>Z-Bolt Generic</brand>
-      <material>ABS</material>
+      <material>TPU</material>
       <color>Generic</color>
     </name>
-    <GUID>468e822b-657e-4193-b8c0-609adc1d3977</GUID>
+    <GUID>c6d253c6-b418-4f44-a8cc-c4c4d59101e3</GUID>
     <color_code>#ff6347</color_code>
     <version>5</version>
   </metadata>
@@ -14,9 +14,9 @@
     <diameter>1.75</diameter>
   </properties>
   <settings>
-    <setting key="print cooling">40.0</setting>
-    <setting key="print temperature">250.0</setting>
-    <setting key="heated bed temperature">110</setting>
-    <setting key="standby temperature">180</setting>
+    <setting key="print cooling">30.0</setting>
+    <setting key="print temperature">230.0</setting>
+    <setting key="heated bed temperature">65</setting>
+    <setting key="standby temperature">160</setting>
   </settings>
 </fdmmaterial>
