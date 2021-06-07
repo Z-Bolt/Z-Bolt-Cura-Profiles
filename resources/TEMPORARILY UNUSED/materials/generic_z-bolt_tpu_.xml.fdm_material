@@ -6,9 +6,9 @@
       <material>TPU</material>
       <color>Generic</color>
     </name>
-    <GUID>c6d253c6-b418-4f44-a8cc-c4c4d59101e3</GUID>
+    <GUID>037addc8-a1c4-4888-a5e4-6b4353799da5</GUID>
     <color_code>#ff6347</color_code>
-    <version>5</version>
+    <version>25</version>
   </metadata>
   <properties>
     <diameter>1.75</diameter>
@@ -17,6 +17,5 @@
     <setting key="print cooling">30.0</setting>
     <setting key="print temperature">230.0</setting>
     <setting key="heated bed temperature">65</setting>
-    <setting key="standby temperature">160</setting>
   </settings>
 </fdmmaterial>
