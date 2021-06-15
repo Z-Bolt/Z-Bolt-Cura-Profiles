@@ -3,10 +3,10 @@
   <metadata>
     <name>
       <brand>Z-Bolt</brand>
-      <material>PLA</material>
+      <material>ABS</material>
       <color>Generic</color>
     </name>
-    <GUID>b91034d2-bdcc-48b6-aa54-df1810d83680</GUID>
+    <GUID>468e822b-657e-4193-b8c0-609adc1d3977</GUID>
     <color_code>#ff6347</color_code>
     <version>5</version>
   </metadata>
@@ -14,8 +14,8 @@
     <diameter>1.75</diameter>
   </properties>
   <settings>
-    <setting key="print cooling">100.0</setting>
-    <setting key="print temperature">220.0</setting>
-    <setting key="heated bed temperature">65</setting>
+    <setting key="print cooling">40.0</setting>
+    <setting key="print temperature">245.0</setting>
+    <setting key="heated bed temperature">110</setting>
   </settings>
 </fdmmaterial>
