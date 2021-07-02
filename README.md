@@ -1,4 +1,4 @@
-# Z-Bolt-Cura-Template
+# Z-Bolt Cura Profiles
 Ultimaker Cura profiles for Z-Bolt series 3D printers.
 
 Profiles support Direct and Bowden feed, system of quality profiles and generic filaments pre-calibrated for optimal printing.
