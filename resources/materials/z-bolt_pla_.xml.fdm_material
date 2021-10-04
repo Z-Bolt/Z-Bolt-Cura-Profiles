@@ -16,6 +16,7 @@
   <settings>
     <setting key="print cooling">100.0</setting>
     <setting key="print temperature">210.0</setting>
+    <setting key="standby temperature">190</setting>
     <setting key="heated bed temperature">60</setting>
   </settings>
 </fdmmaterial>
