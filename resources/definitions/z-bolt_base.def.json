@@ -17,7 +17,7 @@
         "preferred_variant_name": "Direct E3DV6 0.40mm",
         "machine_extruder_trains": { "0": "z-bolt_extruder_0" },
         "exclude_materials": [
-"3D-Fuel_PLA_PRO_Black",
+        "3D-Fuel_PLA_PRO_Black",
         "3D-Fuel_PLA_SnapSupport",
         "chromatik_pla",
         "dsm_arnitel2045_175",
@@ -156,8 +156,8 @@
 
         "speed_infill":                                 { "value": "speed_print" },
         "speed_wall":                                   { "value": "math.ceil(speed_print * 0.8)" },
-        "speed_wall_0":                                 { "value": "math.ceil(speed_print * 0.8)" },
-        "speed_wall_x":                                 { "value": "math.ceil(speed_print * 0.6)" },
+        "speed_wall_0":                                 { "value": "math.ceil(speed_print * 0.6)" },
+        "speed_wall_x":                                 { "value": "math.ceil(speed_print * 0.8)" },
         "speed_roofing":                                { "value": "math.ceil(speed_print * 0.4)" },
         "speed_topbottom":                              { "value": "speed_print" },
         "speed_support":                                { "value": 60 },
