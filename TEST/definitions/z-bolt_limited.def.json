@@ -10,9 +10,10 @@
     },
     "overrides":
     {
-        "machine_name":     { "default_value": "Z-Bolt Limited" },
-        "machine_width":    { "default_value": 200 },
-        "machine_depth":    { "default_value": 200 },
-        "machine_height":   { "default_value": 240 }
+        "machine_name":                                 { "default_value": "Z-Bolt Classic" },
+        "machine_width":                                { "default_value": 200 },
+        "machine_depth":                                { "default_value": 200 },
+        "machine_height":                               { "default_value": 240 },
+        "retraction_amount":                            { "value": 6 }
     }
 }
