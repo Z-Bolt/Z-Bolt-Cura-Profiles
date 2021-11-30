@@ -17,7 +17,7 @@
         "preferred_variant_name": "E3DV6 0.40mm",
         "machine_extruder_trains":
         {
-        "0": "z-bolt_extruder_0"
+        "0": "z-bolt_extruder_1"
         }
     },
 
