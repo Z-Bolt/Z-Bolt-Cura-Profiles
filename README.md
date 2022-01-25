@@ -8,8 +8,8 @@ Profiles support direct and bowden feed, system of quality profiles and generic 
 Currently supported printer series are Z-Bolt Limited, Z-Bolt Limited Plus, Z-Bolt L32 / S32, Z-Bolt S300, Z-Bolt S600.
 
 Installation instructions:
-1. Download and install current version of Ultimaker Cura.
-2. Download profiles (Code -> Download ZIP) from this repository.
+1. Download and install 4.12.1 version of Ultimaker Cura.
+2. Download profiles (Releases -> Download latest ZIP) from this repository.
 3. Move "resources" folder from downloaded archive to the root Cura directory and merge with replacement.
 4. Start Cura and select printer profile corresponding to your printer model.
 
@@ -21,7 +21,7 @@ RUS:
 В настоящий момент поддерживаются принтеры серии Z-Bolt Limited, Z-Bolt Limited Plus, Z-Bolt L32 / S32, Z-Bolt S300, Z-Bolt S600.
 
 Инструкции по установке:
-1. Скачайте и установите актуальную версию Ultimaker Cura.
-2. Скачайте профили (Code -> Download ZIP) из этого репозитория.
+1. Скачайте и установите Ultimaker Cura версии 4.12.1.
+2. Скачайте профили (Releases -> Скачать последний ZIP архив) из этого репозитория.
 3. Переместите папку "resources" из скачанного архива в корневую папку Cura с заменой файлов.
 4. Запустите Cura и выберите профиль принтера, соответствующий вашей модели принтера.
