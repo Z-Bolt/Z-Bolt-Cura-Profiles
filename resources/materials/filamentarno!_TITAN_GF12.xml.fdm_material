@@ -13,7 +13,7 @@
     </metadata>
     <properties>
         <density>1.01</density>
-        <diameter>1.6</diameter>
+        <diameter>1.75</diameter>
     </properties>
     <settings>
         <setting key="print cooling">0</setting>

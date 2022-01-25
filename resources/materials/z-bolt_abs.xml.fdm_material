@@ -15,15 +15,10 @@
         <diameter>1.75</diameter>
     </properties>
     <settings>
-        <setting key="print cooling">30</setting>
+        <setting key="print cooling">20</setting>
         <setting key="print temperature">245</setting>
         <setting key="standby temperature">200</setting>
         <setting key="heated bed temperature">110</setting>
         <setting key="retraction speed">40</setting>
-        <cura:setting key="cool_fan_speed_max">50</cura:setting>
-        <cura:setting key="cool_min_layer_time_fan_speed_max">40</cura:setting>
-        <cura:setting key="cool_fan_full_layer">6</cura:setting>
-        <cura:setting key="cool_min_layer_time">30</cura:setting>
-        <cura:setting key="cool_min_speed">10</cura:setting>
     </settings>
 </fdmmaterial>
