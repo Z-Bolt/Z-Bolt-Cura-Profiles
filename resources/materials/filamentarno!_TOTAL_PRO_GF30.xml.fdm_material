@@ -20,7 +20,7 @@
         <setting key="print temperature">225</setting>
         <setting key="standby temperature">180</setting>
         <setting key="heated bed temperature">85</setting>
-        <cura:setting key="retraction_speed">25</setting>
+        <cura:setting key="retraction_speed">25</cura:setting>
         <cura:setting key="cool_fan_full_layer">4</cura:setting>
         <cura:setting key="cool_min_layer_time">20</cura:setting>
         <cura:setting key="cool_min_speed">10</cura:setting>
