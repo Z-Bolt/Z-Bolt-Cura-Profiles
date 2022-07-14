@@ -16,12 +16,13 @@
     </properties>
     <settings>
         <setting key="print cooling">100</setting>
-        <setting key="print temperature">210</setting>
+        <setting key="print temperature">215</setting>
         <setting key="standby temperature">160</setting>
         <setting key="heated bed temperature">60</setting>
-        <setting key="retraction speed">40</setting>
+        <cura:setting key="retraction_speed">40</setting>
         <cura:setting key="cool_fan_full_layer">3</cura:setting>
-        <cura:setting key="cool_min_layer_time">20</cura:setting>
-        <cura:setting key="cool_min_speed">15</cura:setting>
+        <cura:setting key="cool_min_layer_time">10</cura:setting>
+        <cura:setting key="cool_min_speed">10</cura:setting>
+        <cura:setting key="bridge_fan_speed">100</cura:setting>
     </settings>
 </fdmmaterial>
