@@ -10,7 +10,14 @@ Currently supported printer series are Z-Bolt Limited, Z-Bolt Limited Plus, Z-Bo
 Installation instructions:
 1. Download and install 4.12.1 version of Ultimaker Cura.
 2. Download profiles (Releases -> Download latest ZIP) from this repository.
-3. Move "resources" folder from downloaded archive to the root Cura directory and merge with replacement.
+3. 
+For Windows users:
+Move "resources" folder from downloaded archive to the root Cura directory and merge with replacement.
+
+For MacOS X (or newer) users:
+Move the content of the "resources" folder from downloaded archive into /Users/$USER/Library/Application Support/cura/4.12 and merge with replacement.
+Do not change "resources" directory inside Cura package.
+
 4. Start Cura and select printer profile corresponding to your printer model.
 
 RUS:
@@ -23,5 +30,12 @@ RUS:
 Инструкции по установке:
 1. Скачайте и установите Ultimaker Cura версии 4.12.1.
 2. Скачайте профили (Releases -> Скачать последний RAR архив) из этого репозитория.
-3. Распакуйте архив и переместите содержимое в папку "resources" в корневой папке Cura с заменой файлов.
+3. 
+Для Windows:
+Распакуйте архив и переместите содержимое в папку "resources" в корневой папке Cura с заменой файлов.
+
+Для MacOS X или новее:
+Распакуйте архив и переместите содержимое папки "resources" скаченного архива в /Users/$USER/Library/Application Support/cura/4.12 с заменой файлов.
+Не изменяйте аналогичную папку "resources" в самом пакете Cura.
+
 4. Запустите Cura и выберите профиль принтера, соответствующий вашей модели принтера.
