@@ -17,7 +17,6 @@
         "machine_height":                               { "default_value": 700 },
         "machine_extruder_count":                       { "default_value": 2 },
 		"machine_heated_build_volume":                  { "default_value": true },
-        "retraction_amount":                            { "value": 0.8 },
         "speed_travel":                                 { "value": 150, "maximum_value": 300 },
         "prime_tower_enable":                           { "default_value": true },
         "prime_tower_position_x":                       { "default_value": 50 },
