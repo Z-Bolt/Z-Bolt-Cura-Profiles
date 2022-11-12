@@ -12,13 +12,14 @@ Installation instructions:
 2. Download profiles (Releases -> Download latest ZIP) from this repository.
 3. 
 For Windows users:
-Move "resources" folder from downloaded archive to the root Cura directory and merge with replacement.
+4. Move "resources" folder from downloaded archive to the root Cura directory and merge with replacement.
+5. Start Cura and add a script "Mesh Print Size" (Extensions -> Post Processing -> Modify G-Code -> Add a script)
 
 For MacOS X (or newer) users:
 Move the content of the "resources" folder from downloaded archive into /Users/$USER/Library/Application Support/cura/4.12 and merge with replacement.
 Do not change "resources" directory inside Cura package.
 
-4. Start Cura and select printer profile corresponding to your printer model.
+6. Select printer profile corresponding to your printer model.
 
 RUS:
 Профили Ultimaker Cura для принтеров Z-Bolt.
@@ -32,10 +33,11 @@ RUS:
 2. Скачайте профили (Releases -> Скачать последний RAR архив) из этого репозитория.
 3. 
 Для Windows:
-Распакуйте архив и переместите содержимое в папку "resources" в корневой папке Cura с заменой файлов.
+4. Распакуйте архив и переместите содержимое в папку "resources" в корневой папке Cura с заменой файлов.
+5. Запустите Cura и добавьте скрипт "Mesh Print Size" (Расширения -> Пост-обработка -> Изменить G-код -> Добавить скрипт) 
 
 Для MacOS X или новее:
 Распакуйте архив и переместите содержимое папки "resources" скаченного архива в /Users/$USER/Library/Application Support/cura/4.12 с заменой файлов.
 Не изменяйте аналогичную папку "resources" в самом пакете Cura.
 
-4. Запустите Cura и выберите профиль принтера, соответствующий вашей модели принтера.
+6. Выберите профиль принтера, соответствующий вашей модели принтера.
