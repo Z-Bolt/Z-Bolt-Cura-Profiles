@@ -16,9 +16,10 @@
     </properties>
     <settings>
         <setting key="print cooling">100</setting>
-        <setting key="print temperature">210</setting>
+        <setting key="print temperature">215</setting>
         <setting key="standby temperature">160</setting>
         <setting key="heated bed temperature">60</setting>
+        <setting key="retraction amount">1.4</setting>
         <setting key="retraction speed">40</setting>
     </settings>
 </fdmmaterial>
