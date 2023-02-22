@@ -7,7 +7,7 @@
             <color>Generic</color>
         </name>
         <GUID>468e822b-657e-4193-b8c0-609adc1d3977</GUID>
-        <color_code>#ff6347</color_code>
+        <color_code>#8cb219</color_code>
         <version>5</version>
     </metadata>
     <properties>
@@ -17,7 +17,7 @@
     <settings>
         <setting key="print cooling">25</setting>
         <setting key="print temperature">245</setting>
-        <setting key="standby temperature">200</setting>
+        <setting key="standby temperature">245</setting>
         <setting key="heated bed temperature">110</setting>
         <setting key="retraction amount">2.0</setting>
         <setting key="retraction speed">40</setting>
