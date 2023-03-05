@@ -103,7 +103,7 @@
         "support_roof_density":                         { "value": 80 },
         "support_bottom_density":                       { "value": 80 },
         "minimum_interface_area":                       { "value": 4 },
-        "support_fan_enable":                           { "value": true },
+        "support_fan_enable":                           { "value": false },
         "support_use_towers":                           { "value": false },
 
         "adhesion_type":                                { "default_value": "skirt" },
