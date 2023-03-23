@@ -19,6 +19,6 @@
         <setting key="print temperature">420</setting>
         <setting key="standby temperature">420</setting>
         <setting key="heated bed temperature">145</setting>
-        <setting key="build volume temperature">90</setting>
+        <setting key="build volume temperature">115</setting>
     </settings>
 </fdmmaterial>

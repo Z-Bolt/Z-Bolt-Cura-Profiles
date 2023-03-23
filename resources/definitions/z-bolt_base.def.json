@@ -91,7 +91,7 @@
         "support_wall_count":                           { "value": 1 },
         "support_infill_rate":                          { "value": 15 },
         "support_brim_enable":                          { "value": true },
-        "support_brim_width":                           { "value": 3 },
+        "support_brim_width":                           { "value": 5 },
         "support_z_distance":                           { "value": "layer_height if layer_height <= 0.12 else 0.16" },
         "support_xy_distance":                          { "value": "wall_line_width" },
         "support_xy_distance_overhang":                 { "value": "wall_line_width / 2" },
