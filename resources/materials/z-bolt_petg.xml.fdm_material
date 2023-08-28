@@ -15,11 +15,17 @@
         <diameter>1.75</diameter>
     </properties>
     <settings>
+
+            <!-- print settings -->
         <setting key="print cooling">55</setting>
         <setting key="print temperature">235</setting>
         <setting key="standby temperature">235</setting>
         <setting key="heated bed temperature">80</setting>
         <setting key="retraction amount">3.4</setting>
-        <setting key="retraction speed">22</setting>     
+        <setting key="retraction speed">22</setting>
+
+        <!-- dual extrusion settings -->
+        <cura:setting key="switch_extruder_retraction_amount">2.8</cura:setting>
+
     </settings>
 </fdmmaterial>
