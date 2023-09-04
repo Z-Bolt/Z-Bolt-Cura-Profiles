@@ -19,6 +19,9 @@ For MacOS X (or newer) users:
 Move the content of the "resources" folder from downloaded archive into /Users/$USER/Library/Application Support/cura/4.12 and merge with replacement.
 Do not change "resources" directory inside Cura package.
 
+For Linux users:
+Move the content of the "resources" folder from downloaded archive into ~/.local/share/cura/4.12 and merge with replacement.
+
 6. Select printer profile corresponding to your printer model.
 
 RUS:
@@ -39,5 +42,8 @@ RUS:
 Для MacOS X или новее:
 Распакуйте архив и переместите содержимое папки "resources" скаченного архива в /Users/$USER/Library/Application Support/cura/4.12 с заменой файлов.
 Не изменяйте аналогичную папку "resources" в самом пакете Cura.
+
+Для Linux:
+Распакуйте архив и переместите содержимое папки "resources" скаченного архива в ~/.local/share/cura/4.12 с заменой файлов.
 
 6. Выберите профиль принтера, соответствующий вашей модели принтера.
