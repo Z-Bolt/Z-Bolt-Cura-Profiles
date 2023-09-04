@@ -28,7 +28,7 @@
         "G21 ;metric values\nG90 ;absolute positioning\nM82 ;set extruder to absolute mode\nM107 ;start with the fan off\nT0 ;take Tool 0\nSTART_CHECK0\nM140 S{material_bed_temperature_layer_0}\nM104 S160\nPARK_EXTRUDER ;park tool0 and wait\nM190 S{material_bed_temperature_layer_0}\nM109 S160\nG4 P180000 ;pause\nGET_EXTRUDER ;get tool0\nG1 Z3 F900\nG34 ;z tilt adjust\nBED_MESH_CALIBRATE PRINT_MIN=%MINX%,%MINY% PRINT_MAX=%MAXX%,%MAXY% ;auto bed level\nG1 Z3 F1200 ;move the platform up 3mm\nM104 S0 ;turn off tool0 heater\nT{extruder_nr} ;take printing tool\nG91\nG1 Y10 F9000\nG90\nG1 Z0 F1200 ;move the platform down\nM104 S{material_print_temperature_layer_0}\nM109 S{material_print_temperature_layer_0}\nG1 Z3 F6000 ;move the platform up 3mm\nINTRO_LINE"
                                             },
         "machine_end_gcode":                { "default_value": 
-        "G91 ;relative positioning\nG1 E-1 F300 ;retract the filament\nG1 Z+0.5 E-2 F5000 ;move Z up a bit and retract\nG90 ;absolute positioning\nT0\nG1 X10 Y290 F9000 ;move X/Y close to min endstops\nZ_MAX\nTURN_OFF_HEATERS\nM106 S255\nM109 S60\nM81 ;power off"
+        "G91 ;relative positioning\nG1 E-1 F300 ;retract the filament\nG1 Z+0.5 E-2 F5000 ;move Z up a bit and retract\nG90 ;absolute positioning\nT0\nG1 X10 Y230 F9000 ;move X/Y close to min endstops\nZ_MAX\nTURN_OFF_HEATERS\nM106 S255\nM109 S60\nM81 ;power off"
                                             },
         "machine_extruder_count":   { "default_value": 4 },
         "extruders_enabled_count":  { "default_value": 4 },
