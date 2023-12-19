@@ -45,7 +45,7 @@
         "optimize_wall_printing_order":                 { "default_value": true },
         "travel_compensate_overlapping_walls_enabled":  { "default_value": true },
         "fill_perimeter_gaps":                          { "default_value": "everywhere" },
-        "filter_out_tiny_gaps":                         { "value": true },
+        "filter_out_tiny_gaps":                         { "value": false },
         "fill_outline_gaps":                            { "default_value": true },
         "z_seam_type":                                  { "value": "'sharpest_corner'" },
         "z_seam_corner":                                { "value": "'z_seam_corner_outer'" },

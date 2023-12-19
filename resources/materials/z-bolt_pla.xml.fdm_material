@@ -21,5 +21,6 @@
         <setting key="heated bed temperature">60</setting>
         <setting key="retraction amount">2.8</setting>
         <setting key="retraction speed">30</setting>
+        <cura:setting key="cool_fan_full_layer">4</cura:setting>
     </settings>
 </fdmmaterial>

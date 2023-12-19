@@ -23,6 +23,7 @@
         <setting key="heated bed temperature">80</setting>
         <setting key="retraction amount">3.4</setting>
         <setting key="retraction speed">22</setting>
+        <cura:setting key="cool_fan_full_layer">3</cura:setting>
 
         <!-- dual extrusion settings -->
         <cura:setting key="switch_extruder_retraction_amount">2.8</cura:setting>
