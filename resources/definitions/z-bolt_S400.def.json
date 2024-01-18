@@ -19,7 +19,6 @@
 
     "overrides":
     {
-    // common parameters    
         "machine_name":                                 { "default_value": "Z-Bolt S400" },
         "machine_width":                                { "default_value": 400 },
         "machine_depth":                                { "default_value": 400 },
@@ -33,7 +32,6 @@
         "material_diameter":                            { "default_value": 1.75 },
         "machine_heated_bed":                           { "default_value": true },
 
-    // Heated chamber parameters:   
         "machine_heated_build_volume":                  { "default_value": false },
         "build_volume_temperature":                     { "maximum_value": "90" },
         
@@ -58,7 +56,7 @@
                                                         "maximum_value_warning": "450" },
     
         "cool_min_temperature":                         { "maximum_value": "450" },
-    // dual extrusion parameters:
+
         "extruder_prime_pos_abs":                       { "default_value": true },
         "prime_tower_enable":                           { "default_value": true },
         "prime_tower_size":                             { "default_value": 24 },          
@@ -77,7 +75,6 @@
         "retraction_hop_after_extruder_switch":         { "default_value": true },
         "retraction_hop_after_extruder_switch":         { "enabled": "extruders_enabled_count > 1"},
 
-    // dual supports parameters:
         "support_angle":                                { "value": "45 if extruders_enabled_count > 1 else 60" },
         "support_pattern":                              { "value": "'triangles'" },
         "support_infill_rate":                          { "value": "50 if extruders_enabled_count > 1 else 30"},
