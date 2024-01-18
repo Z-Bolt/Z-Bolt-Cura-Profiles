@@ -8,18 +8,17 @@ Profiles support direct and bowden feed, system of quality profiles and generic 
 Currently supported printer series are Z-Bolt Limited, Z-Bolt Limited Plus, Z-Bolt L32 / S32, Z-Bolt S300, Z-Bolt S600.
 
 Installation instructions:
-1. Download and install 4.12.1 version of Ultimaker Cura.
+1. Download and install 4.12 or 4.13 version of Ultimaker Cura.
 2. Download profiles (Releases -> Download latest ZIP) from this repository.
-3. 
 For Windows users:
-4. Move "resources" folder from downloaded archive to the root Cura directory and merge with replacement.
-5. Start Cura and add a script "Mesh Print Size" (Extensions -> Post Processing -> Modify G-Code -> Add a script)
+3. Move "resources" folder from downloaded archive to the root Cura directory and merge with replacement.
+4. Start Cura and add a script "Mesh Print Size" (Extensions -> Post Processing -> Modify G-Code -> Add a script)
 
 For MacOS X (or newer) users:
 Move the content of the "resources" folder from downloaded archive into /Users/$USER/Library/Application Support/cura/4.12 and merge with replacement.
 Do not change "resources" directory inside Cura package.
 
-6. Select printer profile corresponding to your printer model.
+5. Select printer profile corresponding to your printer model.
 
 RUS:
 Профили Ultimaker Cura для принтеров Z-Bolt.
@@ -31,13 +30,12 @@ RUS:
 Инструкции по установке:
 1. Скачайте и установите Ultimaker Cura версии 4.12.1.
 2. Скачайте профили (Releases -> Скачать последний RAR архив) из этого репозитория.
-3. 
 Для Windows:
-4. Распакуйте архив и переместите содержимое в папку "resources" в корневой папке Cura с заменой файлов.
-5. Запустите Cura и добавьте скрипт "Mesh Print Size" (Расширения -> Пост-обработка -> Изменить G-код -> Добавить скрипт) 
+3. Распакуйте архив и переместите содержимое в папку "resources" в корневой папке Cura с заменой файлов.
+4. Запустите Cura и добавьте скрипт "Mesh Print Size" (Расширения -> Пост-обработка -> Изменить G-код -> Добавить скрипт) 
 
 Для MacOS X или новее:
 Распакуйте архив и переместите содержимое папки "resources" скаченного архива в /Users/$USER/Library/Application Support/cura/4.12 с заменой файлов.
 Не изменяйте аналогичную папку "resources" в самом пакете Cura.
 
-6. Выберите профиль принтера, соответствующий вашей модели принтера.
+5. Выберите профиль принтера, соответствующий вашей модели принтера.
