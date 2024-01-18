@@ -5,21 +5,35 @@
     "metadata":
     {
         "visible": true,
-        "machine_extruder_trains": { "0": "z-bolt_extruder_0" },
-        "quality_definition": "z-bolt_base"
+        "author": "Z-Bolt",
+        "manufacturer": "Z-Bolt Co.",
+        "quality_definition": "z-bolt_base",
+        "machine_extruder_trains":
+        {
+            "0": "z-bolt_extruder_0",
+            "1": "z-bolt_extruder_1",
+            "2": "z-bolt_extruder_2",
+            "3": "z-bolt_extruder_3"
+        }
     },
 
     "overrides":
     {
+    // common parameters    
         "machine_name":                                 { "default_value": "Z-Bolt S400" },
         "machine_width":                                { "default_value": 400 },
         "machine_depth":                                { "default_value": 400 },
         "machine_height":                               { "default_value": 700 },
         "retraction_amount":                            { "value": 2 },
         "retraction_speed":                             { "value": 35 },
-        "machine_start_gcode":                          { "default_value": "START_PRINT T_BED={material_bed_temperature_layer_0} T_EXTRUDER={material_print_temperature_layer_0} T_CHAMBER={build_volume_temperature} PRINT_MIN=%MINX%,%MINY% PRINT_MAX=%MAXX%,%MAXY%" },
+        "machine_extruder_count":                       { "default_value": 1 },
+        "extruders_enabled_count":                      { "default_value": 2 },
+        "machine_start_gcode":                          { "default_value": "START_PRINT TOOL_NR={extruder_nr} T_BED={material_bed_temperature_layer_0} T_EXTRUDER={material_print_temperature_layer_0} T_CHAMBER={build_volume_temperature} PRINT_MIN=%MINX%,%MINY% PRINT_MAX=%MAXX%,%MAXY%" },
         "machine_end_gcode":                            { "default_value": "END_PRINT"},
+        "material_diameter":                            { "default_value": 1.75 },
+        "machine_heated_bed":                           { "default_value": true },
 
+    // Heated chamber parameters:   
         "machine_heated_build_volume":                  { "default_value": false },
         "build_volume_temperature":                     { "maximum_value": "90" },
         
@@ -43,6 +57,36 @@
         "material_standby_temperature":                 {   "maximum_value": "450",
                                                         "maximum_value_warning": "450" },
     
-        "cool_min_temperature":                         { "maximum_value": "450" }
+        "cool_min_temperature":                         { "maximum_value": "450" },
+    // dual extrusion parameters:
+        "extruder_prime_pos_abs":                       { "default_value": true },
+        "prime_tower_enable":                           { "default_value": true },
+        "prime_tower_size":                             { "default_value": 24 },          
+        "prime_tower_min_volume":                       { "default_value": 20 },
+        "prime_tower_position_x":                       { "value": 212 },
+        "prime_tower_position_y":                       { "value": 364 },
+        "prime_tower_wipe_enabled":                     { "default_value": true },
+        "prime_tower_brim_enable":                      { "default_value": true },
+        "switch_extruder_retraction_amount":            { "value": 6 },
+        "switch_extruder_retraction_speed":             { "value": "retraction_speed" },
+        "support_extruder_nr":                          { "value": 1 },
+        "adhesion_extruder_nr":                         { "default_value": 0 },
+        "retraction_hop_enabled":                       { "default_value": false },
+        "retraction_hop":                               { "default_value": 1 },
+        "speed_z_hop":                                  { "default_value": 30 },
+        "retraction_hop_after_extruder_switch":         { "default_value": true },
+        "retraction_hop_after_extruder_switch":         { "enabled": "extruders_enabled_count > 1"},
+
+    // dual supports parameters:
+        "support_angle":                                { "value": "45 if extruders_enabled_count > 1 else 60" },
+        "support_pattern":                              { "value": "'triangles'" },
+        "support_infill_rate":                          { "value": "50 if extruders_enabled_count > 1 else 30"},
+        "support_z_distance":                           { "value": "0.04 if extruders_enabled_count > 1 else layer_height if layer_height <= 0.12 else 0.16" },
+        "gradual_support_infill_steps":                 { "value": 2 },
+        "gradual_support_infill_step_height":           { "value": 2 },
+        "support_interface_density":                    { "value": "65 if extruders_enabled_count > 1 else 50" },
+        "support_roof_density":                         { "value": "90 if extruders_enabled_count > 1 else 80" },
+        "support_bottom_density":                       { "value": "90 if extruders_enabled_count > 1 else 80" },
+        "support_offset":                               { "value": 2 }
      }
 }
