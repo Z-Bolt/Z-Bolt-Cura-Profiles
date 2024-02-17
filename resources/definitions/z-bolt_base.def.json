@@ -85,6 +85,8 @@
         "travel_retract_before_outer_wall":             { "value": true },
         "travel_avoid_other_parts":                     { "value": true },
 
+        "cool_fan_full_layer":                          { "default_value": 4 },
+
         "support_enable":                               { "default_value": true },
         "support_type":                                 { "value": "'everywhere'" },
         "support_angle":                                { "value": 60 },

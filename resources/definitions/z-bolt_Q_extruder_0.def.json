@@ -1,0 +1,18 @@
+{
+    "version": 2,
+    "name": "Toolhead 1",
+    "inherits": "fdmextruder",
+    "metadata":
+    {
+        "machine": "z-bolt_base",
+        "position": "0"
+    },
+
+    "overrides":
+    {
+        "extruder_nr":              { "default_value": 0 },
+        "machine_extruder_start_code": { "default_value": "GET_extruder0 TOOL_NR={extruder_nr} T_EXTRUDER={material_print_temperature} T_STANDBY={material_standby_temperature}" },
+        "machine_extruder_end_code": { "default_value": "PARK_extruder0 TOOL_NR={extruder_nr} T_EXTRUDER={material_print_temperature} T_STANDBY={material_standby_temperature}" },
+        "material_diameter":        { "default_value": 1.75 }
+    }
+}
