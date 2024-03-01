@@ -28,7 +28,7 @@
         "machine_extruder_count":                       { "default_value": 1 },
         "extruders_enabled_count":                      { "default_value": 2 },
         "machine_start_gcode":                          { "default_value": "START_PRINT TOOL_NR={extruder_nr} T_BED={material_bed_temperature_layer_0} T_EXTRUDER={material_print_temperature_layer_0} T_CHAMBER={build_volume_temperature} PRINT_MIN=%MINX%,%MINY% PRINT_MAX=%MAXX%,%MAXY%" },
-        "machine_end_gcode":                            { "default_value": "END_PRINT"},
+        "machine_end_gcode":                            { "default_value": "END_PRINT T_CHAMBER={build_volume_temperature} COOLDOWN_TIME=60"},
         "material_diameter":                            { "default_value": 1.75 },
         "machine_heated_bed":                           { "default_value": true },
 
