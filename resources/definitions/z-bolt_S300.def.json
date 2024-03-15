@@ -18,7 +18,7 @@
         "retraction_amount":                            { "value": 2 },
         "retraction_speed":                             { "value": 35 },
         "machine_start_gcode":                          { "default_value": "START_PRINT T_BED={material_bed_temperature_layer_0} T_EXTRUDER={material_print_temperature_layer_0} T_CHAMBER={build_volume_temperature} PRINT_MIN=%MINX%,%MINY% PRINT_MAX=%MAXX%,%MAXY%" },
-        "machine_end_gcode":                            { "default_value": "END_PRINT T_CHAMBER={build_volume_temperature} COOLDOWN_TIME=60"},
+        "machine_end_gcode":                            { "default_value": "END_PRINT T_BED={material_bed_temperature_layer_0} T_CHAMBER={build_volume_temperature} COOLDOWN_TIME=120"},
         
         "machine_heated_build_volume":                  { "default_value": false },
         "build_volume_temperature":                     { "maximum_value": "90" },
