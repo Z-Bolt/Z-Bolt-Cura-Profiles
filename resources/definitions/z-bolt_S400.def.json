@@ -31,6 +31,7 @@
         "machine_end_gcode":                            { "default_value": "END_PRINT T_BED={material_bed_temperature_layer_0}  T_CHAMBER={build_volume_temperature} COOLDOWN_TIME=120"},
         "material_diameter":                            { "default_value": 1.75 },
         "machine_heated_bed":                           { "default_value": true },
+        "speed_travel":                                 { "value": 120 },
 
         "machine_heated_build_volume":                  { "default_value": false },
         "build_volume_temperature":                     { "maximum_value": "90" },
