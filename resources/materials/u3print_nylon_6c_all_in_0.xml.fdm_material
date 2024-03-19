@@ -3,12 +3,12 @@
     <metadata>
         <name>
             <brand>u3print</brand>
-            <material>PET</material>
+            <material>NYLON</material>
             <color>Generic</color>
-            <label>terylene</label>
+            <label>NYLON 6C ALL IN 0</label>
         </name>
         <GUID>468e822b-657e-4193-b8c0-609adc1d3977</GUID>
-        <color_code>#595959</color_code>
+        <color_code>#3b3b3b</color_code>
         <version>5</version>
     </metadata>
     <properties>
@@ -17,12 +17,12 @@
     </properties>
     <settings>
         <setting key="print cooling">0</setting>
-        <setting key="print temperature">265</setting>
-        <setting key="standby temperature">265</setting>
-        <setting key="heated bed temperature">85</setting>
-        <cura:setting key="retraction_enable">false</cura:setting>
-        <cura:setting key="material_flow">110</cura:setting>
-        <cura:setting key="speed_travel">300</cura:setting>
+        <setting key="print temperature">280</setting>
+        <setting key="standby temperature">280</setting>
+        <setting key="heated bed temperature">135</setting>
+        <setting key="retraction amount">2.0</setting>
+        <setting key="retraction speed">35</setting>
+        <cura:setting key="speed_travel">240</cura:setting>
     
     </settings>
 </fdmmaterial>
