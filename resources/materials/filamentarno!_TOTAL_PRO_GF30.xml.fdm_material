@@ -21,5 +21,6 @@
         <setting key="standby temperature">180</setting>
         <setting key="heated bed temperature">85</setting>
         <setting key="retraction speed">40</setting>
+        <cura:setting key="cool_min_layer_time">30</cura:setting>
     </settings>
 </fdmmaterial>
