@@ -20,9 +20,8 @@
         <setting key="print temperature">265</setting>
         <setting key="standby temperature">265</setting>
         <setting key="heated bed temperature">85</setting>
-        <cura:setting key="retraction_enable">false</cura:setting>
+        <setting key="retraction amount">0</setting>
         <cura:setting key="material_flow">110</cura:setting>
         <cura:setting key="speed_travel">300</cura:setting>
-    
     </settings>
 </fdmmaterial>
