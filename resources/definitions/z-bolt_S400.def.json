@@ -10,10 +10,8 @@
         "quality_definition": "z-bolt_base",
         "machine_extruder_trains":
         {
-            "0": "z-bolt_extruder_0",
-            "1": "z-bolt_extruder_1",
-            "2": "z-bolt_extruder_2",
-            "3": "z-bolt_extruder_3"
+            "0": "z-bolt_Dual_extruder_0",
+            "1": "z-bolt_Dual_extruder_1"
         }
     },
 
@@ -68,7 +66,7 @@
         "prime_tower_brim_enable":                      { "default_value": true },
         "switch_extruder_retraction_amount":            { "value": 6 },
         "switch_extruder_retraction_speed":             { "value": "retraction_speed" },
-        "support_extruder_nr":                          { "value": 1 },
+        "support_extruder_nr":                          { "value": "1 if extruders_enabled_count > 1 else 0" },
         "adhesion_extruder_nr":                         { "default_value": 0 },
         "retraction_hop_enabled":                       { "default_value": false },
         "retraction_hop":                               { "default_value": 1 },
