@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='utf-8'?>
+<fdmmaterial version="1.3" xmlns="http://www.ultimaker.com/material" xmlns:cura="http://www.ultimaker.com/cura">
+    <metadata>
+        <name>
+            <brand>u3print</brand>
+            <material>ABS</material>
+            <color>Generic</color>
+            <label>ABS GFF10</label>
+        </name>
+        <GUID>468e822b-657e-4193-b8c0-609adc1d3977</GUID>
+        <color_code>#3b3b3b</color_code>
+        <version>5</version>
+    </metadata>
+    <properties>
+        <density>1.00</density>
+        <diameter>1.75</diameter>
+    </properties>
+    <settings>
+        <setting key="print cooling">30</setting>
+        <setting key="print temperature">255</setting>
+        <setting key="standby temperature">255</setting>
+        <setting key="heated bed temperature">120</setting>
+    </settings>
+</fdmmaterial>
