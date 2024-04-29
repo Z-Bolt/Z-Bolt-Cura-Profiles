@@ -21,8 +21,7 @@
         "machine_end_gcode":                            { "default_value": "END_PRINT T_BED={material_bed_temperature_layer_0} T_CHAMBER={build_volume_temperature} COOLDOWN_TIME=120"},
         
         "machine_heated_build_volume":                  { "default_value": false },
-        "build_volume_temperature":                     { "maximum_value": "90" },
-        
+        "build_volume_temperature":                     { "maximum_value": "90" },    
         "default_material_bed_temperature":             {   "maximum_value": "150",
                                                         "maximum_value_warning": "150" },
         "material_bed_temperature":                     {   "maximum_value": "150",
@@ -41,8 +40,7 @@
         "material_break_preparation_temperature":       { "maximum_value": "450" },
         "material_break_temperature":                   { "maximum_value": "450" },
         "material_standby_temperature":                 {   "maximum_value": "450",
-                                                        "maximum_value_warning": "450" },
-    
+                                                        "maximum_value_warning": "450" },    
         "cool_min_temperature":                         { "maximum_value": "450" }                                           
     }
 }
