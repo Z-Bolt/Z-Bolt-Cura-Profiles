@@ -1,0 +1,90 @@
+{
+    "name": "Z-Bolt S800",
+    "version": 2,
+    "inherits": "z-bolt_base",
+    "metadata":
+    {
+        "visible": true,
+        "author": "Z-Bolt",
+        "manufacturer": "Z-Bolt Co.",
+        "quality_definition": "z-bolt_base",
+        "machine_extruder_trains":
+        {
+            "0": "z-bolt_Dual_extruder_0",
+            "1": "z-bolt_Dual_extruder_1"
+        }
+    },
+
+    "overrides":
+    {
+        "machine_name":                                 { "default_value": "Z-Bolt S800" },
+        "machine_width":                                { "default_value": 802 },
+        "machine_depth":                                { "default_value": 802 },
+        "machine_height":                               { "default_value": 802 },
+        "retraction_amount":                            { "value": 2 },
+        "retraction_speed":                             { "value": 35 },
+        "machine_extruder_count":                       { "value": 2 },
+        "extruders_enabled_count":                      { "default_value": 2 },
+        "machine_start_gcode":                          { "default_value": "START_PRINT TOOL_NR={initial_extruder_nr} T_BED={material_bed_temperature_layer_0} T_EXTRUDER={material_print_temperature_layer_0} T_CHAMBER={build_volume_temperature} PRINT_MIN=%MINX%,%MINY% PRINT_MAX=%MAXX%,%MAXY%" },
+        "machine_end_gcode":                            { "default_value": "END_PRINT T_BED={material_bed_temperature_layer_0}  T_CHAMBER={build_volume_temperature} COOLDOWN_TIME=120"},
+        "material_diameter":                            { "default_value": 1.75 },
+        "machine_heated_bed":                           { "default_value": true },
+        "speed_travel":                                 { "value": 300 },
+        "speed_travel_layer_0":                         { "value": 120 },
+
+        "machine_heated_build_volume":                  { "default_value": true },
+        "build_volume_temperature":                     { "maximum_value": "70" },
+        
+        "default_material_bed_temperature":             {   "maximum_value": "110",
+                                                        "maximum_value_warning": "110" },
+        "material_bed_temperature":                     {   "maximum_value": "110",
+                                                        "maximum_value_warning": "110" },
+        "material_bed_temperature_layer_0":             {   "maximum_value": "110",
+                                                        "maximum_value_warning": "110" },
+
+        "default_material_print_temperature":           {   "maximum_value": "600",
+                                                        "maximum_value_warning": "600" },
+        "material_print_temperature":                   {   "maximum_value": "600",
+                                                        "maximum_value_warning": "600" },
+        "material_print_temperature_layer_0":           {   "maximum_value": "600",
+                                                        "maximum_value_warning": "600" },
+        "material_initial_print_temperature":           { "maximum_value": "600" },
+        "material_final_print_temperature":             { "maximum_value": "600" },
+        "material_break_preparation_temperature":       { "maximum_value": "600" },
+        "material_break_temperature":                   { "maximum_value": "600" },
+        "material_standby_temperature":                 {   "maximum_value": "600",
+                                                        "maximum_value_warning": "600" },
+    
+        "cool_min_temperature":                         { "maximum_value": "600" },
+
+        "extruder_prime_pos_abs":                       { "default_value": true },
+        "prime_tower_enable":                           { "default_value": false },
+        "prime_tower_size":                             { "default_value": 24 },          
+        "prime_tower_min_volume":                       { "default_value": 20 },
+        "prime_tower_position_x":                       { "value": 400 },
+        "prime_tower_position_y":                       { "value": 50 },
+        "prime_tower_wipe_enabled":                     { "default_value": true },
+        "prime_tower_brim_enable":                      { "default_value": true },
+        "switch_extruder_retraction_amount":            { "value": 6 },
+        "switch_extruder_retraction_speed":             { "value": "retraction_speed" },
+        "support_extruder_nr":                          { "value": "1 if extruders_enabled_count > 1 else 0" },
+        "adhesion_extruder_nr":                         { "default_value": 0 },
+        "retraction_hop_enabled":                       { "default_value": true },
+        "retraction_hop":                               { "default_value": 1 },
+        "speed_z_hop":                                  { "default_value": 30 },
+        "retraction_hop_after_extruder_switch":         { "default_value": true },
+        "retraction_hop_after_extruder_switch":         { "enabled": "extruders_enabled_count > 1"},
+        "retraction_hop_after_extruder_switch_height":  { "value": 3 },
+
+        "support_angle":                                { "value": "45 if extruders_enabled_count > 1 else 60" },
+        "support_pattern":                              { "value": "'triangles'" },
+        "support_infill_rate":                          { "value": "50 if extruders_enabled_count > 1 else 30"},
+        "support_z_distance":                           { "value": "0.04 if extruders_enabled_count > 1 else layer_height if layer_height <= 0.12 else 0.16" },
+        "gradual_support_infill_steps":                 { "value": 2 },
+        "gradual_support_infill_step_height":           { "value": 2 },
+        "support_interface_density":                    { "value": "65 if extruders_enabled_count > 1 else 50" },
+        "support_roof_density":                         { "value": "90 if extruders_enabled_count > 1 else 80" },
+        "support_bottom_density":                       { "value": "90 if extruders_enabled_count > 1 else 80" },
+        "support_offset":                               { "value": 2 }
+     }
+}
